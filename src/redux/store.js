@@ -4,40 +4,40 @@ import cartReducer from "./slices/cartSlice"
 
 
 // Save state to localStorage
-const saveState = (state) => {
-    try {
-        const serializedState = JSON.stringify(state);
-        localStorage.setItem("reduxState", serializedState);
-    } catch (e) {
-        // ignore write errors
-    }
-};
+// const saveState = (state) => {
+//     try {
+//         const serializedState = JSON.stringify(state);
+//         localStorage.setItem("reduxState", serializedState);
+//     } catch (e) {
+//         // ignore write errors
+//     }
+// };
 
 // Load state from localStorage
-const loadState = () => {
-    try {
-        const serializedState = localStorage.getItem("reduxState");
-        if (serializedState === null) return undefined;
-        return JSON.parse(serializedState);
-    } catch (e) {
-        return undefined;
-    }
-};
+// const loadState = () => {
+//     try {
+//         const serializedState = localStorage.getItem("reduxState");
+//         if (serializedState === null) return undefined;
+//         return JSON.parse(serializedState);
+//     } catch (e) {
+//         return undefined;
+//     }
+// };
 
 const store = configureStore({
     reducer: {
         wishlist: wishlistReducer,
         cartItem: cartReducer
     },
-    preloadedState: loadState()
+    // preloadedState: loadState()
 })
 
-store.subscribe(() => {
-    saveState({
-        cartItem: store.getState().cartItem,
-        wishlist: store.getState().wishlist
-    });
-});
+// store.subscribe(() => {
+//     saveState({
+//         cartItem: store.getState().cartItem,
+//         wishlist: store.getState().wishlist
+//     });
+// });
 
 
 export default store

@@ -52,9 +52,9 @@ function Header() {
                 {/* Mobile Menu */}
                 {menuOpen && (
                     <div className="md:hidden bg-violet-800 p-4 space-y-3">
-                        <Link to="/wishlist" className="block text-white">Wishlist</Link>
-                        <Link to="/cart" className="block text-white">Cart</Link>
-                        <Link to="/" className="block text-white">Home</Link>
+                        <Link to="/" onClick={() => setMenuOpen(false)} className="block text-white">Home</Link>
+                        <Link to="/wishlist" onClick={() => setMenuOpen(false)} className="block text-white">Wishlist</Link>
+                        <Link to="/cart" onClick={() => setMenuOpen(false)} className="block text-white">Cart</Link>
                     </div>
                 )}
             </header>

@@ -86,13 +86,13 @@ function Cart() {
               </tbody>
             </table>
           ) : (
-            <p className="text-center text-gray-500 text-lg">No items in cart</p>
+            <p className=" text-red-600">Your Cart is Empty</p>
           )}
         </div>
 
 
         {cartArray.length > 0 && (
-          <div className="col-span-12 lg:col-span-4 flex justify-center">
+          <div className="col-span-12 lg:col-span-4 flex justify-center mb-5">
             <div className="p-5 shadow-lg rounded-lg border w-full lg:w-80 h-fit">
               <h2 className="text-2xl text-center font-semibold text-gray-600">Cart Summary</h2>
               <p className="mt-4 text-xl">
