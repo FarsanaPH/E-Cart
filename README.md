@@ -1,6 +1,6 @@
 # E-CART
 
-**E-CART** is a **frontend e-commerce platform** designed to demonstrate state management using **Redux**. The project focuses on **wishlist and cart management**, providing a smooth shopping experience. The app uses **Redux Toolkit** for global state management,and **Tailwind CSS** for a modern, responsive UI, and **reusable components** to maintain clean and scalable code.  
+**E-CART** is a **frontend e-commerce platform** simply designed to demonstrate state management using **Redux**. The project focuses on **wishlist and cart management**, providing a smooth shopping experience. The app uses **Redux Toolkit** for global state management,and **Tailwind CSS** for a modern, responsive UI, and **reusable components** to maintain clean and scalable code.  
 
 
 ## Project Purpose
@@ -25,6 +25,9 @@ This project is built to simulate a **realistic e-commerce shopping experience**
 - **Redux Toolkit** – Global state management  
 - **JavaScript (ES6+)** – Core logic  
 - **Vite** – Fast build and development environment  
+
+### 🔗 Live Demo :
+The React frontend is available and deployed here:[View on Vercel](https://e-cart-nine-neon.vercel.app/)
 
 ---
 
