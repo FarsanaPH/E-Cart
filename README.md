@@ -26,7 +26,7 @@ This project is built to simulate a **realistic e-commerce shopping experience**
 - **JavaScript (ES6+)** – Core logic  
 - **Vite** – Fast build and development environment  
 
-## 🔗 Live Demo :
+### 🔗 Live Demo :
 The React frontend is available and deployed here:[View on Vercel](https://e-cart-nine-neon.vercel.app/)
 
 ---
