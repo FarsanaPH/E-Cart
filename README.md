@@ -1,6 +1,6 @@
 # E-CART
 
-**E-CART** is a **frontend e-commerce platform** designed to demonstrate **state management using Redux**. The project focuses on **wishlist and cart management**, providing a smooth shopping experience. The app uses **Redux Toolkit** for global state management,and **Tailwind CSS** for a modern, responsive UI, and **reusable components** to maintain clean and scalable code.  
+**E-CART** is a **frontend e-commerce platform** designed to demonstrate state management using **Redux**. The project focuses on **wishlist and cart management**, providing a smooth shopping experience. The app uses **Redux Toolkit** for global state management,and **Tailwind CSS** for a modern, responsive UI, and **reusable components** to maintain clean and scalable code.  
 
 
 ## Project Purpose
